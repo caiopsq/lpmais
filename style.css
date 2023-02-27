@@ -444,26 +444,81 @@ a{
 /* fim banner login */
 
 
-/* mobile */
+@media (max-width: 440px){
 
-@media window (max-width: 440px) {
+    html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
 
-    *{
-        overflow-x: hidden;
-	overflow-y: hidden;
-    }
+body{
+    width: 100vw !important;
+    
+}
 
-    #banner-lancamento p{
-        text-align: center;
-    }
+#destaque{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    #destaque{
-        display:flex;
-        padding-top: 2%;
-        width:100%; 
-        /* border: 1px solid black; */
-    }
+#destaque .descricao-destaque{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#secao-central{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#secao-central .descricao-secao-central{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.secao-video h1{
+    text-align: center;
+}
+
+#carrousel-parceiros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 
 }
 
-/* mobile */
+}
+
+
+@media (max-width: 840px){
+
+    html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+
+}
