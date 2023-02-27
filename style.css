@@ -442,3 +442,28 @@ a{
     }
 
 /* fim banner login */
+
+
+/* mobile */
+
+@media (max-width: 440px) {
+
+    *{
+        overflow-x: hidden;
+    }
+
+    #banner-lancamento p{
+        text-align: center;
+    }
+
+    #destaque{
+        display:grid;
+        grid-template-rows: 65% 35%;
+        padding-top: 2%;
+        width:100%; 
+        /* border: 1px solid black; */
+    }
+
+}
+
+/* mobile */
