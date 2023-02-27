@@ -446,10 +446,11 @@ a{
 
 /* mobile */
 
-@media (max-width: 440px) {
+@media window (max-width: 440px) {
 
     *{
         overflow-x: hidden;
+	overflow-y: hidden;
     }
 
     #banner-lancamento p{
@@ -457,8 +458,7 @@ a{
     }
 
     #destaque{
-        display:grid;
-        grid-template-rows: 65% 35%;
+        display:flex;
         padding-top: 2%;
         width:100%; 
         /* border: 1px solid black; */
